@@ -136,30 +136,22 @@ section .heading3{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding: 0 100px 0 100px;
+    
 }
 .container2Image{
-    width: 400px;
-    height: 300px;
+    height: 400px;
     border-radius: 7px;
     border-top: rgb(241,126,1) 3px solid;
 }
 .container2 img:hover{
     transform: scale(0.9, 0.9);
 }
-.container2 p:hover{
-    text-align: center;
-    width: 400px;
-    height: 430px;
-    background: rgb(241,126,1);
-    transition: width 2s;
-    border-radius: 5px;
-}
+
 .container2 a{
     text-decoration: none;
 }
 .container2 .imageText{
-    width: 400px;
+    
     color: white;
     background-color: rgb(241,126,1);
     height: 40px;
@@ -169,12 +161,12 @@ section .heading3{
     border-radius: 7px;
 }
 .container2 p{
-    width:400px;
+    
     /* letter-spacing: 2px; */
-    line-height: 1.6rem;
+    line-height: 2.0rem;
     padding-top: 10px;
-    font-weight: bold;
-    font-size: 16px;
+    font-size: 24px;
+    
 }
 
 
@@ -186,6 +178,38 @@ section .heading3{
     flex-direction: row;
     justify-content:space-around;
     background: linear-gradient(to right,rgb(241,126,1),rgb(82, 49, 15))
+}
+
+/* cars section */
+.cars-heading{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(0,166,90);
+    letter-spacing: 2px;
+    margin: 60px 0 50px 0;
+    text-transform: uppercase;
+
+}
+.cars-section{
+    background-color: rgb(246,246,246);
+    display: flex;
+    flex-direction: row;
+}
+section .car1{
+    width: 550px;
+    height: 500px;
+}
+section .car2{
+    width: 400px;
+    height: 500px;
+}
+section .car3{
+    width: 400px;
+    height: 500px;
+}
+section .car4{
+    width: 550px;
+    height: 500px;
 }
 
 /* footer styles */
