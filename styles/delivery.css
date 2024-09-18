@@ -1,0 +1,276 @@
+body{
+    background-color: black;
+    color: antiquewhite;
+    font-family: monospace;
+}
+/* header css */
+.container{
+    margin: auto;
+    overflow: hidden;
+    width: 80%;
+}
+.header1{
+    
+    padding-top: 0px;
+    min-height: 70px;
+    border-bottom: rgb(241,126,1) 3px solid;
+}
+.logo{
+    border-radius: 5px;
+}
+.logo-main{
+    width: 70px;
+    height: 60px;
+    border-radius: 7px;
+    padding-top: 5px;
+}
+header a{
+    color:antiquewhite;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+header ul{
+    margin: 0;
+    padding: 0;
+}
+header li{
+    padding: 20px 20px 0 20px;
+    float: left;
+    display: inline;
+}
+header .logo{    
+    float: left;
+}
+header .logo{
+    margin: 0;
+}
+header nav{
+    float: right;
+    padding-top: 0;
+    padding-bottom: 20px;
+}
+header a:hover {
+    color: rgb(241,126,1);
+}
+header img:hover{
+    box-shadow: 5px 5px 15px 5px rgb(241,126,1);
+}
+
+
+/* hero styles */
+
+.sectionHero{
+    height: 400px;
+    background-image: url("../andy-images/african-ameri.jpg");
+    background-repeat: no-repeat; 
+    background-position:calc(50% - 10px)calc(20% + 50px);
+    background-size:cover;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(3, 110, 62);
+}
+section .sectionHero{
+    padding-top: 0;
+    margin-top: 0;
+}
+ div .theImage {  
+    height:400px;
+    width: 700px;
+    padding-top: 0;
+    margin-top: 0;
+}
+ .heroText{
+    margin-top: 0;
+    padding-top: 60px;
+    font-size: 60px;
+ }
+.heroPara{
+    font-size: 30px; 
+       
+}
+/* heading below hero */
+.intro-text span{
+    color: rgb(241,126,1);
+}
+section .heading{
+    font-size: 35px;
+    text-align: center;
+    letter-spacing: 3px;
+    font-family:monospace;
+    padding-top: 30px;
+    color: rgb(0,166,90);
+    border-radius: 7px;
+    padding-bottom: 7px;
+}
+section .heading2{
+    font-size: 20px;
+    text-align: center;
+    color:  rgb(190, 181, 181);
+}
+section .heading3{
+    font-size: 20px;
+    text-align: center;
+    color:  rgb(190, 181, 181);
+}
+
+
+/* our services */
+ .our-services{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(0,166,90);
+    letter-spacing: 2px;
+    margin: 60px 0 50px 0;
+    text-transform: uppercase;
+    /* border-bottom: rgb(241,126,1) 3px solid; */
+}
+/* delivery types */
+.delivery-types{
+    background-image:url(../andy-images/max-bottinger.jpg);
+    height: 400px;
+    margin: 0;
+    background-position: calc(50% - 100px);
+}
+.delivery-services{
+    background-color: rgb(63, 62, 60);
+    width: 500px;
+    height: 380px;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+}
+.delivery-services p{
+    background-color: rgb(114, 113, 112);
+    width: 400px;
+    height: 35px;
+    border-radius: 7px;
+    padding-top: 20px;
+    margin-left: 50px;
+    color: rgb(9, 82, 49);
+    font-weight: bold;
+}
+/* maingrid */
+.sectionGrid{
+    
+    text-align: center;
+}
+ #sectionGrid div{ 
+   
+    padding: 10px;
+}
+.container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.container2Image{
+    
+    height: 300px;
+    width: 500px;
+    border-radius: 7px;
+    border-top: rgb(241,126,1) 3px solid;
+}
+.container2 img:hover{
+    transform: scale(0.9, 0.9);
+}
+
+.container2 a{
+    text-decoration: none;
+}
+.container2 .imageText{
+    
+    color: white;
+    background-color: rgb(241,126,1);
+    height: 60px;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 20px;
+    border-radius: 7px;
+}
+.container2 p{
+    
+    /* letter-spacing: 2px; */
+    line-height: 2.0rem;
+    padding-top: 10px;
+    font-size: 24px;
+    
+}
+
+
+/* cars section */
+.deliv-heading{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(0,166,90);
+    letter-spacing: 2px;
+    margin: 40px 0 40px 0;
+    
+
+}
+.deliv-section{
+    background-color: rgb(246,246,246);
+    display: flex;
+    flex-direction: row;
+}
+section .delivery1{
+    width: 480px;
+    height: 500px;
+}
+section .delivery2{
+    width: 470px;
+    height: 500px;
+}
+section .delivery3{
+    width: 480px;
+    height: 500px;
+}
+section .delivery4{
+    width: 480px;
+    height: 500px;
+}
+/* car-types */
+.car-types{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 200px;
+    padding-top: 50px;
+}
+.car-types div{
+    font-size: 18px;
+}
+.car-types span{
+    color:rgb(241,126,1);
+}
+
+/* contact section styles */
+#about-contact{
+    margin: 50px 0px 0px 0px ;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    background: linear-gradient(to right,rgb(241,126,1),rgb(82, 49, 15))
+}
+
+/* footer styles */
+.footer{
+    text-align: center;
+    margin-top: 20px;
+}
+.footer2{
+    color: rgb(241,126,1) ;
+    padding-left: 10px;
+}
+
+/* media */
+
+/* @media(max-width:460px){
+    .footer{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+} */

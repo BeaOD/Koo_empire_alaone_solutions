@@ -1,110 +1,162 @@
-Creating an image carousel using CSS and JavaScript involves several steps. Here's a simple example to get you started:
-
-### HTML
-```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Image Carousel</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta name="keywords" content="car rental, delivery, travel and tour, ghana, accra, tema">
+    <title>Koo Empire Ala_One Solutions</title>
+    <link rel="stylesheet" href="/styles/delivery.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">     
 </head>
 <body>
-    <div class="carousel">
-        <div class="carousel-images">
-            <img src="image1.jpg" alt="Image 1">
-            <img src="image2.jpg" alt="Image 2">
-            <img src="image3.jpg" alt="Image 3">
+    
+
+        
+        <header class="header1">
+           <div class="container">
+            <div class="logo">
+                <a href="index.html"><img src="./andy-images/logo.jpeg" alt="company logo" class="logo-main"></a>
+            </div>
+            <nav class="navbar">
+            <ul class="menu "> 
+                
+                    <li><a href="rental.html"> Car Rental </a></li>
+                    <li><a href="delivery.html"> Express Delivery</a></li>
+                    <li><a href="building.html"> Building Construction</a></li>
+                    <li ><a href="#about-contact">Contact Us </a></li>
+                
+            </ul>
+            </nav>
         </div>
-        <button class="prev" onclick="prevSlide()">&#10094;</button>
-        <button class="next" onclick="nextSlide()">&#10095;</button>
+        </header>
+        
+        
+   <section class="sectionHero">
+    <div class="theImage">
+        <h1  class="heroText" data-aos="fade-up" data-aos-delay="5000" data-aos-duration="3000"> KOO EMPIRE ALA_ONE SOLUTIONS</h1>
+            <p class="heroPara"> Service With A Difference</p>
+       
     </div>
-    <script src="script.js"></script>
+   </section>
+
+   <section class="intro-text">
+    <h1 class="heading">Always Reliable 
+        <span data-aos="fade-up" data-aos-duration="3000" data-aos-delay="500">Express Delivery </span>
+         </h1>
+    <p class="heading2">Koo Empire Ala_One Solutions has reliable dispatch riders within Tema and Accra.
+    Our services extend to Business Entities, Institutions and Individuals. </p>
+        <p class="heading3"> We work swiftly & timely.</p>
+   </section>
+
+   <section>
+    <div class="our-services"> 
+        What we do
+    </div>
+   </section>
+
+   <section class="delivery-types">
+   
+    <div class="delivery-services">
+       
+        <p>Errands</p>
+        <p>Pickup & Delivery </p>
+        <p>Bulk Delivery</p>
+        <p>Delivery For Institutions </p>
+        
+    </div>
+    <div>
+        
+        
+    </div>
+</section>
+<section>
+    <div class="our-services"> 
+        Why Choose Us
+    </div>
+   </section>
+
+    
+   <section id="sectionGrid">
+    <div class="row container2 ">
+         <div class=" grid2 ">
+            <img src="./andy-images/young-african.jpg" alt="" class="container2Image">       
+         </div>  
+
+        <div class="grid3">                  
+            <p class="imageParagraph">
+                Discover the convenience of our fast and reliable delivery service, 
+                where your packages are handled with care and arrive on time, every time.
+                 Whether you are sending a gift, receiving a crucial order, 
+                 or just need to get something quickly, our team ensures swift processing
+                  and timely delivery so you can enjoy peace of mind. From local to national destinations,
+                   we provide a seamless experience with real-time tracking and exceptional customer support. 
+                   Choose us for a delivery service you can trust to get your items where they need to go,
+                    efficiently and dependably. Experience the difference with our superior delivery service today!
+            </p>
+        </div>
+    </div>
+
+   </section> 
+
+<section  class=" deliv-heading">
+    <h3> Delivery Happiness</h3>
+</section>
+
+<section class="deliv-section">
+    
+    <div >
+        <img src="./andy-images/delivery-concept-portrait-happy-african-american-delivery-man.jpg" alt="" class="delivery1">
+
+    </div>
+    <div >
+        <img src="./andy-images/close-person.jpg" alt="" class="delivery2">
+
+    </div>
+    <div >
+        <img src="./andy-images/deli.jpg" alt="" class="delivery3">
+
+    </div>
+    <div >
+        <img src="./andy-images/close-up.jpg" alt="" class="delivery4">
+
+    </div>
+   
+</section>
+
+
+
+<section id="about-contact">
+    <div class="contact">
+    
+        <h2>Locate Us</h2> 
+        <p>P.O.Box CO 1619</p>
+        <p>Tema | Greater Accra Region</p>
+        <p>Ghana GPS Address | GK-0259-1312</p>
+
+    </div>
+    <div class="social">
+        <h2>Contact Us</h2> 
+        <p>+233 [0]20 813 5083</p>
+        <p>+233 [0]24 429 8266</p>
+        <p>Time | 8am to 5pm</p>
+        <p>Sunday to Monday</p>
+
+         </div>
+   </section>
+
+    <footer class="footer">
+        <section class="footer1">
+            Copyright 2024 | All Rights Reserved 
+        
+        <span class="footer2"> 
+        
+            Koo Empire Ala_One Solutions
+        </span >
+    </section>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="./js-files/rental.js"></script>
+    
 </body>
 </html>
-```
-
-### CSS (styles.css)
-```css
-body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-.carousel {
-    position: relative;
-    width: 80%;
-    max-width: 600px;
-    margin: auto;
-    overflow: hidden;
-}
-
-.carousel-images {
-    display: flex;
-    transition: transform 0.5s ease;
-}
-
-.carousel-images img {
-    width: 100%;
-    flex-shrink: 0;
-}
-
-button {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-}
-
-.prev {
-    left: 0;
-}
-
-.next {
-    right: 0;
-}
-```
-
-### JavaScript (script.js)
-```javascript
-let index = 0;
-
-function showSlide(n) {
-    const slides = document.querySelectorAll('.carousel-images img');
-    const totalSlides = slides.length;
-    if (n >= totalSlides) {
-        index = 0;
-    } else if (n < 0) {
-        index = totalSlides - 1;
-    } else {
-        index = n;
-    }
-    const offset = -index * 100;
-    document.querySelector('.carousel-images').style.transform = `translateX(${offset}%)`;
-}
-
-function nextSlide() {
-    showSlide(index + 1);
-}
-
-function prevSlide() {
-    showSlide(index - 1);
-}
-
-// Optional: Automatically change slides every 3 seconds
-setInterval(nextSlide, 3000);
-```
-
-### Explanation
-
-- **HTML**: Sets up the structure of the carousel with images and navigation buttons.
-- **CSS**: Styles the carousel and positions the buttons.
-- **JavaScript**: Handles slide transitions and navigation functionality.
-
-Replace `image1.jpg`, `image2.jpg`, and `image3.jpg` with the paths to your images. Adjust the CSS and JavaScript as needed to fit your design and functionality requirements.

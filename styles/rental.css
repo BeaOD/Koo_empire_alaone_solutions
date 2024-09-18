@@ -91,8 +91,13 @@ section .sectionHero{
     font-size: 30px;
     
 }
+/* heading below hero */
+.intro-text span{
+    color: rgb(241,126,1);
+
+}
 section .heading{
-    font-size: 40px;
+    font-size: 35px;
     text-align: center;
     letter-spacing: 3px;
     font-family:monospace;
@@ -104,12 +109,12 @@ section .heading{
 section .heading2{
     font-size: 20px;
     text-align: center;
-    color:  rgb(241,126,1);
+    color:  rgb(190, 181, 181);
 }
 section .heading3{
     font-size: 20px;
     text-align: center;
-    color:  rgb(241,126,1);
+    color:  rgb(190, 181, 181);
 }
 
 
@@ -168,16 +173,37 @@ section .heading3{
     font-size: 24px;
     
 }
+/* delivery types */
+.delivery-types{
+    height: 500px;
+    background-image: url("../andy-images/young-african.jpg" ) ;
+    background-repeat: no-repeat; 
+    background-position:  center;
+    background-size: cover;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(3, 110, 62);
+}
+section .sectionHero{
+    padding-top: 0;
+    margin-top: 0;
 
-
-/* contact section styles */
-#about-contact{
-    margin: 30px 0px 0px 0px ;
-    padding-top: 20px;
-    display: flex;
-    flex-direction: row;
-    justify-content:space-around;
-    background: linear-gradient(to right,rgb(241,126,1),rgb(82, 49, 15))
+}
+ div .theImage {
+   
+    height:400px;
+    width: 700px;
+    padding-top: 0;
+    margin-top: 0;
+}
+ .heroText{
+    margin-top: 0;
+    padding-top: 60px;
+    font-size: 60px;
+ }
+.heroPara{
+    font-size: 30px;
+    
 }
 
 /* cars section */
@@ -210,6 +236,18 @@ section .car3{
 section .car4{
     width: 550px;
     height: 500px;
+}
+/* service-types */
+
+
+/* contact section styles */
+#about-contact{
+    margin: 30px 0px 0px 0px ;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    background: linear-gradient(to right,rgb(241,126,1),rgb(82, 49, 15))
 }
 
 /* footer styles */
