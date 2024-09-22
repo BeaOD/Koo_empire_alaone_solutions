@@ -207,12 +207,71 @@ section .heading3{
     padding-left: 10px;
 }
 
-/* media */
-
-/* @media(max-width:460px){
-    .footer{
-        display: flex;
-        flex-direction: row-reverse;
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
     }
 
-} */
+    .container {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+    .logo{
+        padding:10px 0px 0px 30px ;
+    }
+
+    header li {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    .sectionHero {
+        height: 300px;
+        padding-top: 30px;
+    }
+
+    .heroText {
+        font-size: 40px;
+    }
+
+    .heroPara {
+        font-size: 24px;
+    }
+
+    section .heading {
+        font-size: 28px;
+    }
+
+    .our-services {
+        font-size: 24px;
+    }
+
+    .container2 {
+        flex-direction: column;
+        align-items: center;
+        padding: 0 10px;
+    }
+
+    .container2Image {
+        width: 90%;
+        max-width: 350px;
+    }
+
+    .container2 p {
+        width: 90%;
+        font-size: 16px;
+    }
+
+    #about-contact {
+        display: flex;
+        flex-direction: column;
+        padding-left: 5px;
+        
+    }
+
+    .footer {
+        font-size: 12px;
+    }
+}
