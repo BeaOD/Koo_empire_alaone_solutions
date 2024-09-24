@@ -187,15 +187,6 @@ section .heading3{
     justify-content:space-around;
     background: linear-gradient(to right,rgb(241,126,1),rgb(82, 49, 15))
 }
-/* .contact{
-   
-    padding-left: 20px;
-}
-.social{
-    
-    padding: 0px 20px 0 20px;
-
-} */
 
 /* footer styles */
 .footer{
@@ -257,6 +248,7 @@ section .heading3{
     .container2Image {
         width: 90%;
         max-width: 350px;
+        
     }
 
     .container2 p {

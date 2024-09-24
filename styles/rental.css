@@ -304,21 +304,35 @@ section .car4{
 
     .our-services {
         font-size: 24px;
+        margin-bottom: 1px;
+    }
+    .sectionGrid{
+        padding-bottom: 0px;
+        margin-bottom: 0%;
     }
 
     .container2 {
         flex-direction: column;
-        align-items: center;
+        align-items: left;
+        margin-top: 0%;
+        padding-top: 0%;
     }
 
     .container2Image {
-        width: 90%;
-        max-width: 350px;
+        height: 350px;
+        max-width: 370px;
+        border-radius: 7px;
+        padding-bottom: 1px;
+    }
+    .cars-heading{
+        margin-top: 0px;
+        padding-top: auto;
     }
 
     .cars-section, .car-types{
         display: flex;
         flex-direction: column;
+        padding-left: 5px;
     
     }
 

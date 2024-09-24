@@ -543,12 +543,15 @@ section .building1{
     /* Grid Section */
     .container2 {
         flex-direction: column; 
-        align-items: center; 
+        align-items: left; 
     }
+     
 
     .container2Image {
         width: 100%; 
-        max-width: 300px; 
+        max-width: 350px;
+        margin-top: 25px; 
+        
     }
 
     /* Building Section */
